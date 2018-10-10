@@ -1,0 +1,95 @@
+li {
+    width: 60px;
+    display: inline;
+}
+
+ul{
+  text-align: right;
+  margin-right: 100px;
+}
+
+#NAV{
+  font-size:20px;
+  font-family: 'Amatic SC';font-size: 33px;
+  font-weight: bold;
+  font-style: normal;
+  line-height:18px;
+  color:white;
+  padding: 10px;
+  text-decoration:none;
+}
+
+h1 {
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Amatic SC';font-size: 59px;
+  font-size: 55px;
+}
+
+h2 {
+  color: rgb(234, 234, 234);
+  padding: 10px;
+  font-family: 'Amatic SC';font-size: 33px;
+  font-size: 40px;
+}
+
+h3 {
+  color: rgb(234, 234, 234);
+  padding: 10px;
+  font-family: 'Amatic SC';font-size: 33px;
+  font-size: 30px;
+  margin-bottom: -30px;
+}
+
+p{
+  color: rgb(206, 206, 206);
+  padding: 20px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
+  vertical-align: top;
+}
+
+body{
+  background-image: url("../Images/background.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+#Artstation{
+  color: rgb(206, 206, 206);
+  font-family: 'Roboto Mono', monospace;
+  margin-top: -30px;
+  font-size: 15px;
+  font-weight: normal;
+  margin-left: 2px;
+  text-decoration: underline;
+  margin-right: 2px;
+}
+
+#Artstation:hover{
+  color: rgb(102, 102, 102);
+}
+
+#CV{
+  margin: auto;
+  width: 70%;
+  display: block;
+  background-color: rgba(0, 0, 0, .5);
+  margin-top: 100px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 50px;
+}
+
+tr:nth-child(odd){background-color: rgba(51, 51, 51, .5);}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    color:#e8e8e8;
+    font-family: 'Roboto Mono', monospace;
+}

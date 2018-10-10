@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="CSS/contact.css">
+
+    <ul>
+      <li><a href="index.html" id="NAV">CV</a></li>
+      <li><a href="hobby.html" id="NAV">Hobbies</a></li>
+      <li><a href="contact.html" id="NAV">Contact</a></li>
+    </ul>
+
+<div id="CV">
+    <head>
+      <h1>Contact</h1>
+    </head>
+
+      <p></p>
+
+      <form class="contact-form" action="contactform.php" method="post">
+        <input type="text" name="name" placeholder="Full name...">
+        <input type="text" name="mail" placeholder="Your e-mail...">
+        <input type="text" name="Subject" placeholder="Subject of contact...">
+        <select>
+          <option value="0">Select subject</option>
+          <option value="hobbies">Hobbies</option>
+          <option value="work">Work</option>
+          <option value="info">Information</option>
+          <option value="education">Education</option>
+          <option value="other">other</option>
+        </select>
+        <textarea name="message" placeholder="Message..."> </textarea>
+        <input type="submit" value="Submit">
+      </form>
+</div>
+
+    </body>
+</html>
