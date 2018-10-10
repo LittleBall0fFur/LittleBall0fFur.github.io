@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<html lang="en">
+
+<div include-html="../../head.html"></div>
+
+<body>
+    <h1 class="text-center">Gift name</h1>
+
+    <div class="card mx-auto" style="width: 80%; background-color:rgb(252, 237, 255);">
+        <img class="card-img-top mx-auto" src="../../../Images/gift.jpg" alt="Img of gift" style="width: 30%;">
+
+        <div class="card-body">
+            <h5 class="card-title">
+                Name gift
+            </h5>
+            <p class="card-text">
+                The detailed discription of the present goes here
+            </p>
+            <h5 style="float: left;">
+                Price
+            </h5>
+
+            <a href="#" class="btn btn-primary btn-light" style="float: right; width:100%;">
+                <p>Buy</p>
+            </a>
+        </div>
+    </div>
+
+
+    <div class="card mx-auto" style="width: 80%; background-color:rgb(252, 237, 255);">
+        <div class="card-body">
+            <h1 class="card-title text-center">
+                Comments
+            </h1>
+
+            <div class="card mx-auto" style="width: 100%; background-color:rgb(252, 237, 255);">
+                <div class="card-body">
+                    <h5>Name Commenter</h5>
+                    <p class="card-text">
+                        Comment goes here by time posted
+                    </p>
+
+                    <div class="container-fluid text-right">
+                        <a><img src="../../../Images/edit.jpg" style="width: 10%; max-width: 30px; margin:5px;"></a>
+                        <a><img src="../../../Images/delete.jpg" style="width: 10%; max-width: 30px; margin:5px;"></a>
+                    </div>
+                </div>
+            </div>
+
+            <textarea class="form-control" rows="5" id="comment"></textarea>
+            <a href="#" class="btn btn-primary btn-light" style="float: right; width:100%; max-height: 50px;">
+                <p>Post</p>
+            </a>
+        </div>
+    </div>
+</body>
+
+<script src="../../../js/include.js"></script>
+<script>
+            includeHTML();
+        </script>
+</html>

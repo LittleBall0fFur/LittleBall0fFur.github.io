@@ -1,0 +1,11 @@
+#icon{
+  width: 60%;
+  padding: 20px;
+  max-width: 300px;
+}
+
+#input{
+  width: 70%;
+  float: center;
+  max-width: 500px;
+}
